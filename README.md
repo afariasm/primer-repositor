@@ -1,10 +1,10 @@
 # Ejecutar Holamundo.py
 
-1- Verificar que tenga python instalado ¿Como hacerlo? entrar a cmd y escribir "py --version" o " python --version" (si no lo tiene, instalar en https://www.python.org/downloads/)
+1- Verificar que tenga python instalado ¿Como hacerlo? entrar a cmd y escribir "py --version" o " python --version" (si no lo tiene lo puede instalar en https://www.python.org/downloads/)
 
-2- Descargar Holamundo.py
+2- Descargar el codigo el el repositorio "Holamundo.py"
 
-3- Abrir CMD
+3- Abrir CMD ¿Como hacerlo? oprimimos la tecla WIND + R y escribimos "CMD", luego apretamos ENTER
 
 4- Escribir en cmd "cd (Ubicacion donde esta descargado  el archivo)"
 
