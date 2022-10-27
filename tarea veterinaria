@@ -1,0 +1,46 @@
+##Crear un nuevo repositorio en el cual deberá definir mediante pseudocódigo las clases, atributos y métodos para un sistema de una botilleria
+Por ahora se puede trabajar directamente en https://github.com/ pero la gente que ya se maneja en sus entorno y editores tratar de utilizar esto.
+
+inventory
+  class DrinkableInventory()
+    ##atributos
+    id = '' #codigo de barra
+    product = '' #nombre del producto
+    size = 0   #tamaño (entregar en ml)
+    worth = o  #valor de el producto (entregar en clp)
+    amount = 0 #cantidad de productos 
+    expiration 0 '' #fecha de expiración
+
+    ##metodos
+    change_amount(amount)
+    change_worth(worth)
+    change_amount(amount)
+  
+  class EdibleInventory()
+    ##atributo
+    id = '' #codigo de barra
+    product = '' #nombre del producto
+    size = 0   #tamaño (entregar en gm)
+    worth = o  #valor de el producto (entregar en clp)
+    amount = 0 #cantidad de productos 
+    expiration 0 '' #fecha de expiración 
+  
+  ##metodos
+  change_amount(amount)
+  change_worth(worth)
+  change_amount(amount)
+  
+class Sale()
+  ##atributo
+  id = '' #codigo de barra
+  category = '' #bebestible o comestible
+  product = '' #nombre del producto
+  size = 0   #tamaño (entregar en gm)
+  
+  
+  
+  
+  
+  
+  
+  
