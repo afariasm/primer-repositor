@@ -1,0 +1,24 @@
+from typing_extensions import Self
+
+
+class Fraction:
+    #atributos
+    numerator = 0
+    denominator = 1 
+    #metodos
+    def __init__(self,numerator,denominator):
+        self.numerator = numerator
+        self.denominator = denominator
+
+    def printf(self):
+        print(self.numerator,"/",self.denominator)
+    def multipication(self,b):
+        numerator = self.numerator *b.numerator
+        denominator = self.denominator *b.denominator
+        r = Fraction(numerator,denominator)
+        r.print()
+
+a=Fraction (5,2)
+b=Fraction (3,4)
+
+r=a.multiplication(b)
