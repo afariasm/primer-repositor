@@ -14,7 +14,7 @@ def main():
     print("2.-Banco Estado")
     print("3.-Tenpo")
     bank = 0
-    while ((bank != 1) and (bank != 0) ):
+    while ((bank < 1) or (3 < bank) ):
         bank = int(input("ingrese la opción que usted quiere : "))
         if (bank == 1):
             bank = "Match"
@@ -28,6 +28,7 @@ def main():
         else:
             print("La opción ingresada no es valida, intente denuevo.")
     #pedir clave ausuario
+    key = ""
     key = input("ingrese la clave que quiere tener para su cuenta :")
     full_money = 0
     
